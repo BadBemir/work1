@@ -1,0 +1,267 @@
+
+@media screen and (max-width: 768px) {
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .grid-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    *{
+    flex-wrap:wrap;
+    }
+
+    row{
+        flex-wrap: wrap;
+    }
+    
+    footer{
+        flex-direction: column;
+        flex-wrap: wrap;
+    };
+
+    a{
+    text-decoration: none;
+    color:black;
+}
+
+
+}
+
+@keyframes ani {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+html{
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    animation: ani 0.5s forwards;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+button{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: 1px solid balack;
+    font-family: "Pangolin", cursive;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 12px;
+    transition: all 0.2s ease-in-out;
+    scale: (1);
+}
+
+button:hover{
+    transform: scale(1.1);
+    border-color: gray;
+    color:gray;
+}
+
+
+body{
+    margin: auto;
+}
+
+header{
+    font-family: "Pangolin", cursive;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+h1,h2,h3,h4{
+    font-family: "Pangolin", cursive;
+    font-weight: 600;
+    font-style: normal;
+}
+nav{
+
+    align-content: center;
+}
+nav a{
+    color: black;
+    font-size: 24px;
+    padding: 15px 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+nav a:hover{
+    font-size: 28px;
+    color:gray;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.container{
+    margin:50px auto;
+    text-align: center;
+    width: 80%;
+    max-width: 960px;
+}
+.flex-container img{
+    width: 500px;
+    height: 375px;
+}
+.flex-container{
+    margin: auto;
+}
+.flex-row{
+    display: flex;
+}
+.flex-elemet{
+    border: 2px solid black;
+    margin: 5px;
+}
+
+.flex-elemet:hover {
+    box-shadow: inset 0px 0px 10px rgba(75, 75, 75, 0.5);
+}
+
+.gallery{
+    display: flex;
+    justify-content: center;
+    
+}
+.item h1,h2,h3,h4{
+    text-align: center;
+}
+.item{
+    text-align: center;
+    margin: 10px;
+    padding: 5px;    
+    scale: (1);
+    transition: all 0.2s ease-in-out;
+}
+
+.item:hover{
+    transform: scale(1.1);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+.item img{
+    width: 250px;
+    height: 210px;
+}
+    
+.gallery img{
+    width: 250px;
+    height: 300px;
+    border: black solid;
+    background-size: contain;
+}
+
+.inter{
+    display: flex;
+    gap:10px;
+}
+
+.gallery button{
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: 1px solid balack;
+    font-family: "Pangolin", cursive;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 12px;
+}
+
+p{
+    font-family: "Pangolin", cursive;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.short-info p{
+    text-align: center;
+}
+
+.date{
+    font-family: "Pangolin", cursive;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.news button:hover{
+    border-color: gray;
+    color:gray;
+}
+
+.filters{
+    justify-content: center;
+    font-family: "Pangolin", cursive;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 18px;
+    text-align: justify;
+    display: flex;
+    align-content: center;
+    gap: 20px;
+}
+
+.filters a{
+    align-content: center;
+}
+
+.guides{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+
+.guide{
+    text-align: left;
+    padding: 40px;
+    border: 2px solid black;
+    scale: (1);
+    transition: all 0.2s ease-in-out;
+}
+
+.guide img {
+    width: 250px;
+    height: 300px;
+}
+
+.guide:hover{
+    transform:scale(1.1);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+
+.row{
+    gap:20px;
+    display: flex;
+    justify-content: center;
+}
+
+.col img{
+    width: 50%;
+    
+}
+
+footer{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color:white;
+    background-color: #0d0d0d;
+    height: 200px;
+}
