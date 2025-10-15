@@ -11,6 +11,6 @@ First website
   * HTML
   * CSS
 ## Downloadin
-  * <Code> -> Download ZIP
+  * Code > Download ZIP
   * unzip in folder
   * start index.html
