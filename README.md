@@ -14,3 +14,7 @@ First website
   * Code > Download ZIP
   * unzip in folder
   * start index.html
+
+## Author
+
+ * BadBemir
