@@ -10,7 +10,7 @@ First website
 ## Languages
   * HTML
   * CSS
-## Downloadin
+## Downloading
   * Code > Download ZIP
   * unzip in folder
   * start index.html
